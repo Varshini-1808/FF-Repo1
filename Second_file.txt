@@ -1,0 +1,10 @@
+git status
+git add .filename or git add . for all files to add
+git status
+git commit "msg"
+git branch
+some steps
+git push -u origin main
+
+
+
