@@ -1,0 +1,52 @@
+What is CSS?
+CSS is used to style and layout webpages - including the design, colors, spacing, fonts, and positioning of HTML elements.
+Why CSS?
+Without CSS, HTML pages are plain, CSS makes websites visually attractive and user friendly.
+Types of CSS:
+1.Inline CSS:
+    ->For single line styling
+    Syntax:
+     ->Inside HTML tag
+     Ex: <p style="color:blue; font-size:18px;">This is a blue paragraph.</p>
+2.Internal CSS:
+    ->For one-page styling
+    Syntax:
+     ->Inside <style> in <head> section
+     Ex:
+      <html>
+        <head>
+           <style>
+                  h1{
+                       color:green;
+                       text-align:center;
+                  }
+           </style>
+       </head>
+</html>
+3.External CSS:
+    ->For site-wide styling
+    Syntax:
+     ->In .css filr linked to html
+     Ex:
+      index.html:
+            <head>
+                  <link rel="stylesheet" fref="style.css">
+            </head>
+            <body>
+                  <p class="highlight">Styled from external file</p>
+            </body>
+      style.css:
+            .highlight{
+                        background-color: yellow;
+                        font-weight: bold;
+                      }
+
+CSS Syntax:
+selector{
+   property: value;
+  }
+Ex:
+p{
+  color: red;
+  font-size: 16px;
+ }
